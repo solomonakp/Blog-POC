@@ -24,9 +24,25 @@ export const Posts = async (props: PostsProps) => {
         align="center"
         justify="center"
       >
-        <Center>
-          <Title order={1}>No posts available</Title>
-        </Center>
+        <Title order={1} className={classes['home-page___no-posts']}>
+          No posts available
+        </Title>
+
+        <Affix position={{ bottom: 80, right: 60 }}>
+          <ActionIcon
+            color="blue"
+            radius="xl"
+            size={60}
+            className={classes['home-page__floating-button']}
+            aria-label="Create Post"
+            gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
+            variant="gradient"
+            component={Link}
+            href={`/post/create/${totalPages}?page=${currentPage}`}
+          >
+            <IconPlus stroke={3} size={30} />
+          </ActionIcon>
+        </Affix>
       </Flex>
     );
   }
