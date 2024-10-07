@@ -6,7 +6,7 @@ A blog proof of concept for managing blog post.
 
 &nbsp;
 
-<video src="./public/video.mp4"  controls></video>
+![screenshot](./public/video.mp4)
 
 This is a simple proof of concept for a blog post manager. The blog is user friendly and easy to interact with and has key functionalities such as create, edit, delete, and view blog posts.
 
