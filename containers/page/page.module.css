@@ -1,0 +1,12 @@
+.page {
+  padding-top: rem(120px);
+  padding-bottom: rem(140px);
+}
+
+.page--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  flex-direction: column;
+}
