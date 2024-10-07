@@ -56,7 +56,7 @@ export const Posts = async (props: PostsProps) => {
       </Box>
       <Grid
         type="container"
-        breakpoints={{ xs: '', sm: '', md: '425px', lg: '768px', xl: '1140px' }}
+        breakpoints={{ xs: '', sm: '', md: '475px', lg: '768px', xl: '1140px' }}
         className={classes['home-page___posts']}
       >
         {posts.map((post) => (

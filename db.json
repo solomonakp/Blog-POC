@@ -1,3 +1,124 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": "a7d8c9b1-e234-5678-9101-a567b89cd123",
+      "title": "Building Responsive Websites with Flexbox",
+      "description": "A detailed guide to mastering Flexbox for responsive web design.",
+      "author": "Mark Thompson",
+      "tags": [
+        "CSS",
+        "Flexbox",
+        "Responsive"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"Mastering Flexbox for Responsive Design\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Explore how Flexbox simplifies layout creation. \"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"xfjfjfj and this\"}]}]}",
+      "createdAt": "2024-08-14T09:15:45.123Z",
+      "imgUrl": "https://picsum.photos/id/1011/800/720",
+      "upDatedAt": "2024-10-07T20:28:45.925Z"
+    },
+    {
+      "id": "b6f1e4c3-d987-4567-8910-b789d67ef345",
+      "title": "JavaScript Async Programming Explained",
+      "description": "A beginner-friendly guide to asynchronous programming in JavaScript.",
+      "author": "Emily Clarke",
+      "tags": [
+        "JavaScript",
+        "Async",
+        "Promises"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"Understanding JavaScript Async\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Learn the fundamentals of async programming in JavaScript.\"}]}]}",
+      "createdAt": "2024-07-22T10:30:20.057Z",
+      "imgUrl": "https://picsum.photos/id/1015/800/720",
+      "upDatedAt": "2024-10-07T19:17:50.327Z"
+    },
+    {
+      "id": "c8g9h1i2-f345-6789-0123-d890e12f6789",
+      "title": "TypeScript: Beyond JavaScript",
+      "description": "An introduction to TypeScript and its advantages over plain JavaScript.",
+      "author": "Sophia Lopez",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Typed Language"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"Exploring TypeScript\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Discover how TypeScript enhances JavaScript development.\"}]}]}",
+      "createdAt": "2024-06-30T13:45:12.057Z",
+      "imgUrl": "https://picsum.photos/id/1020/800/720",
+      "upDatedAt": "2024-10-07T19:19:45.327Z"
+    },
+    {
+      "id": "d9j1k2l3-g456-7890-1234-e901f23g7890",
+      "title": "Getting Started with React Hooks",
+      "description": "A comprehensive guide on React Hooks and their usage in functional components.",
+      "author": "Michael Brown",
+      "tags": [
+        "React",
+        "Hooks",
+        "JavaScript"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"React Hooks Overview\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Learn the basics of React Hooks for better component management.\"}]}]}",
+      "createdAt": "2024-05-10T08:10:55.057Z",
+      "imgUrl": "https://picsum.photos/id/1022/800/720",
+      "upDatedAt": "2024-10-07T19:21:20.327Z"
+    },
+    {
+      "id": "e2f3g4h5-i567-8901-2345-f012g34h8901",
+      "title": "Creating RESTful APIs with Node.js",
+      "description": "Step-by-step guide to building RESTful APIs using Node.js and Express.",
+      "author": "David Jones",
+      "tags": [
+        "Node.js",
+        "Express",
+        "REST API"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"RESTful API with Node.js\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Learn how to create scalable APIs using Node.js and Express.\"}]}]}",
+      "createdAt": "2024-04-20T11:25:30.057Z",
+      "imgUrl": "https://picsum.photos/id/1030/800/720",
+      "upDatedAt": "2024-10-07T19:23:10.327Z"
+    },
+    {
+      "id": "f4g5h6i7-j678-9012-3456-g123h45i9012",
+      "title": "Advanced CSS Animations and Transitions",
+      "description": "A deep dive into CSS animations and transitions for enhanced web interactions.",
+      "author": "Jessica White",
+      "tags": [
+        "CSS",
+        "Animations",
+        "Web Design"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"CSS Animations and Transitions\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Master CSS animations to create interactive, dynamic websites.\"}]}]}",
+      "createdAt": "2024-03-12T15:50:17.057Z",
+      "imgUrl": "https://picsum.photos/id/1032/800/720",
+      "upDatedAt": "2024-10-07T19:25:05.327Z"
+    },
+    {
+      "id": "g6h7i8j9-k789-0123-4567-h234i56j1234",
+      "title": "Working with Git and Version Control",
+      "description": "A beginner's guide to using Git for version control in software development.",
+      "author": "Robert Taylor",
+      "tags": [
+        "Git",
+        "Version Control",
+        "Collaboration"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"Mastering Git for Version Control\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Learn the essentials of Git for collaborative software development.\"}]}]}",
+      "createdAt": "2024-02-28T13:22:40.057Z",
+      "imgUrl": "https://picsum.photos/id/1035/800/720",
+      "upDatedAt": "2024-10-07T19:27:50.327Z"
+    },
+    {
+      "id": "h8i9j0k1-l890-1234-5678-i345j67k2345",
+      "title": "Optimizing Web Performance with Lighthouse",
+      "description": "Learn how to use Lighthouse to optimize web performance and improve user experience.",
+      "author": "Anna Lee",
+      "tags": [
+        "Web Performance",
+        "Lighthouse",
+        "SEO"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"Web Performance Optimization\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Improve website speed and SEO with Lighthouse optimization techniques.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"look at this \"}]}]}",
+      "createdAt": "2024-01-14T12:35:10.057Z",
+      "imgUrl": "https://picsum.photos/id/1038/800/720",
+      "upDatedAt": "2024-10-07T20:27:38.189Z"
+    }
+  ]
 }

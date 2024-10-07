@@ -1,8 +1,10 @@
 import dayjs from 'dayjs';
 import { Metadata, NextPage, ResolvingMetadata } from 'next';
 import NextImage from 'next/image';
+import { RICH_EDITOR_EXTENSIONS_SERVER } from '@components/rich-editor';
 import { Page } from '@containers/page';
 import { DeletePost } from '@features/delete-post';
+import { generateHTML } from '@tiptap/html';
 import { generateRandomIntBetween } from '@utils/functions';
 import { Avatar, Box, Flex, Image, Text, Title } from '@mantine/core';
 import { PostNavigation } from './features';
@@ -40,6 +42,8 @@ export const PostDetailsPage: NextPage<Props> = async (props) => {
   const post = await getPost(props.params.id);
 
   const isUpdatedPost = post.updatedAt !== null;
+
+  const __html = generateHTML(JSON.parse(post.content), RICH_EDITOR_EXTENSIONS_SERVER);
 
   return (
     <Page className="post-details-page">
@@ -82,7 +86,7 @@ export const PostDetailsPage: NextPage<Props> = async (props) => {
         </Flex>
       </Box>
       <Box component="section" mb="xl">
-        <Box component="article" mb="xl" dangerouslySetInnerHTML={{ __html: post.content }} />
+        <Box component="article" mb="xl" dangerouslySetInnerHTML={{ __html }} />
       </Box>
       <PostNavigation />
       <DeletePost id={props.params.id} />

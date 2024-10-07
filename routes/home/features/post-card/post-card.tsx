@@ -3,8 +3,7 @@
 import NextImage from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-// import { DeletePost } from '@features/delete-post';
-
+import { DeletePost } from '@features/delete-post';
 import { IconEdit, IconTrash } from '@tabler/icons-react';
 import { PAGE_SEARCH_KEY } from '@utils/constants';
 import { generateRandomIntBetween } from '@utils/functions';
@@ -15,7 +14,7 @@ import {
   Box,
   Card,
   CardSection,
-  Center,
+  Flex,
   Group,
   Image,
   rem,
@@ -85,7 +84,7 @@ export const PostCard = (props: Props) => {
       </Text>
 
       <Group justify="space-between" className={classes['post-card__footer']}>
-        <Center>
+        <Flex>
           <Avatar
             src={`https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-${generateRandomIntBetween(1, 10)}.png`}
             size={24}
@@ -93,10 +92,10 @@ export const PostCard = (props: Props) => {
             mr="xs"
             alt={props.author}
           />
-          <Text fz="sm" lineClamp={1}>
+          <Text fz="sm" lineClamp={1} className={classes['post-card__author']}>
             {props.author}
           </Text>
-        </Center>
+        </Flex>
 
         <Group gap={8} mr={0}>
           <ActionIcon
@@ -116,7 +115,7 @@ export const PostCard = (props: Props) => {
           </ActionIcon>
         </Group>
       </Group>
-      {/* <DeletePost id={props.id} /> */}
+      <DeletePost id={props.id} />
     </Card>
   );
 };

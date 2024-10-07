@@ -1,30 +1,63 @@
-.home-page___posts {
-  /* calculates height on demand for Post section 
-   Formular = (available height - (header + footer + allowance)) */
-
-  min-height: calc(100vh - (rem(48px) + rem(52px) + rem(200px)));
+.post-card {
+  position: relative;
+  background-color: var(--mantine-color-body);
+  min-height: rem(370px);
 }
 
-.home-page__floating-button {
-  position: fixed;
-  bottom: 80px;
-  right: 60px;
-  box-shadow: 0 rem(3px) rem(8px) rgb(0 0 0 / 64%);
+.post-card__title {
+  display: block;
+  margin-top: var(--mantine-spacing-md);
+  margin-bottom: rem(5px);
+}
 
-  @media (max-width: $mantine-breakpoint-md) {
-    right: 10px;
+.post-card__action {
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-5));
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-6));
   }
+}
+
+.post-card__image-action {
+  display: block;
 
   &:hover,
   &:focus,
   &:active {
-    transform: scale(1.1);
-    transition: transform 150ms ease-out;
+    img {
+      transform: scale(1.2);
+      transition:
+        transform 1s,
+        visibility 1s ease-out;
+    }
   }
-  will-change: transform;
-  transition: transform 150ms ease-in;
+
+  img {
+    transition:
+      transform 1s,
+      visibility 1s ease-in,
+      -webkit-transform 1s;
+    will-change: transform;
+  }
 }
 
-.home-page___no-posts {
-  text-align: center;
+.post-card__footer {
+  margin-top: var(--mantine-spacing-md);
+  position: absolute;
+  left: rem(10px);
+  right: rem(10px);
+  bottom: rem(12px);
+}
+
+.post-card__anchor {
+  color: var(--text-color);
+  font-weight: bold;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    transition: color 150ms;
+  }
+  will-change: color;
 }

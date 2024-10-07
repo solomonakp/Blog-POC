@@ -1,7 +1,7 @@
 .post-card {
   position: relative;
   background-color: var(--mantine-color-body);
-  min-height: rem(370px);
+  min-height: rem(390px);
 }
 
 .post-card__title {
@@ -39,4 +39,30 @@
       -webkit-transform 1s;
     will-change: transform;
   }
+}
+
+.post-card__footer {
+  margin-top: var(--mantine-spacing-md);
+  position: absolute;
+  left: rem(10px);
+  right: rem(10px);
+  bottom: rem(12px);
+}
+
+.post-card__author {
+  width: 100%;
+  max-width: rem(260px);
+}
+
+.post-card__anchor {
+  color: var(--text-color);
+  font-weight: bold;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    transition: color 150ms;
+  }
+  will-change: color;
 }
