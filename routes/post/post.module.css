@@ -1,0 +1,11 @@
+.post-details-page {
+  margin-bottom: rem(300px);
+}
+
+.post-details-page__author-date {
+  align-self: flex-end;
+}
+
+.post-details-page__author {
+  margin-bottom: rem(2px);
+}
