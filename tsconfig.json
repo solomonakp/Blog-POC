@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "types": ["node", "jest", "@testing-library/jest-dom"],
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -16,10 +17,19 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./*"]
+      "@containers/*": ["containers/*"],
+      "@hooks/*": ["hooks/*"],
+      "@public/*": ["public/*"],
+      "@routes/*": ["routes/*"],
+      "@styles/*": ["styles/*"],
+      "@theme/*": ["theme/*"],
+      "@utils/*": ["utils/*"],
+      "@lib/*": ["lib/*"],
+      "@components/*": ["components/*"],
+      "@features/*": ["features/*"]
     },
     "plugins": [{ "name": "next" }]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", ".next"]
 }
