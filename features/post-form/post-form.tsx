@@ -17,12 +17,14 @@ export const PostForm = (props: Props) => {
 
   const isEdit = useMemo(() => Boolean(typeof post !== 'undefined'), [post]);
 
+  const content = isEdit ? JSON.parse(post?.content || '') : '';
+
   const initialValues = {
     title: post?.title || '',
     description: post?.description || '',
     author: post?.author || '',
     tags: post?.tags || [],
-    content: post?.content || '',
+    content,
   };
 
   const form = useForm({

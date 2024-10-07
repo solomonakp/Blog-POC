@@ -104,21 +104,6 @@
       "createdAt": "2024-02-28T13:22:40.057Z",
       "imgUrl": "https://picsum.photos/id/1035/800/720",
       "upDatedAt": "2024-10-07T19:27:50.327Z"
-    },
-    {
-      "id": "h8i9j0k1-l890-1234-5678-i345j67k2345",
-      "title": "Optimizing Web Performance with Lighthouse",
-      "description": "Learn how to use Lighthouse to optimize web performance and improve user experience.",
-      "author": "Anna Lee",
-      "tags": [
-        "Web Performance",
-        "Lighthouse",
-        "SEO"
-      ],
-      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"Web Performance Optimization\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"Improve website speed and SEO with Lighthouse optimization techniques.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"underline\"}],\"text\":\"look at this \"}]}]}",
-      "createdAt": "2024-01-14T12:35:10.057Z",
-      "imgUrl": "https://picsum.photos/id/1038/800/720",
-      "upDatedAt": "2024-10-07T20:27:38.189Z"
     }
   ]
 }

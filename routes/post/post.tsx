@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import { Metadata, NextPage, ResolvingMetadata } from 'next';
+import { Metadata, NextPage } from 'next';
 import NextImage from 'next/image';
 import { RICH_EDITOR_EXTENSIONS_SERVER } from '@components/rich-editor';
 import { Page } from '@containers/page';
@@ -12,28 +12,19 @@ import { PostDetailsPageProps as Props } from './post.props';
 import { getPost } from './post.server';
 import classes from './post.module.css';
 
-export const PostDetailsMetadata: Metadata = {
-  title: 'Create a Post',
-  description: 'Create a Post for blog',
-};
-
-export async function generatePostDetailsMetadata(
-  { params }: Props,
-  parent: ResolvingMetadata
-): Promise<Metadata> {
+export async function generatePostDetailsMetadata({ params }: Props): Promise<Metadata> {
   // read route params
   const { id } = params;
 
   // fetch data
-  const product = await fetch(`https://.../${id}`).then((res) => res.json());
-
-  // optionally access and extend (rather than replace) parent metadata
-  const previousImages = (await parent).openGraph?.images || [];
+  const post = await getPost(id);
 
   return {
-    title: product.title,
+    title: `Edit ${post.title}`,
+    description: post.description,
+    publisher: post.author,
     openGraph: {
-      images: ['/some-specific-page-image.jpg', ...previousImages],
+      images: [post.imgUrl],
     },
   };
 }

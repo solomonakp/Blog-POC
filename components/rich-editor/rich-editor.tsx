@@ -11,7 +11,7 @@ export const Editor = (props: Props) => {
 
   const editor = useEditor({
     extensions: RICH_EDITOR_EXTENSIONS_CLIENT,
-    content: JSON.parse(value || ''),
+    content: value,
   });
 
   editor?.on('focus', () => {
