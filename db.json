@@ -59,6 +59,18 @@
       "createdAt": "2024-04-20T11:25:30.057Z",
       "imgUrl": "https://picsum.photos/id/1030/800/720",
       "upDatedAt": "2024-10-07T19:23:10.327Z"
+    },
+    {
+      "id": "6336",
+      "title": "posterboy",
+      "description": "this is a story of a poster boy ",
+      "author": "solomon chokor",
+      "tags": [
+        "test"
+      ],
+      "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"dckldfjklcvjkldvjkljvdlkvjlkvd\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"},{\"type\":\"underline\"}],\"text\":\"dkkldvldvkdvjlkdvjlkdvjkldvdklvjjkldvldvjkkldvj\"}]}]}",
+      "createdAt": "2025-02-06T16:42:17.079Z",
+      "imgUrl": "https://picsum.photos/id/37/800/720"
     }
   ]
 }
