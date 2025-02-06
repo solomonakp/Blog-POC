@@ -46,7 +46,7 @@ export const PostCard = (props: Props) => {
   };
 
   return (
-    <Card withBorder radius="md" className={classes['post-card']} data-testId="post-card">
+    <Card withBorder radius="md" className={classes['post-card']} data-testid="post-card">
       <CardSection>
         <Link
           className={classes['post-card__image-action']}

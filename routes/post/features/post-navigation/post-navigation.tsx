@@ -3,15 +3,17 @@
 import Link from 'next/link';
 import { useParams, usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { IconArrowLeft, IconTrash } from '@tabler/icons-react';
-import { IS_DELETE_SEARCH_KEY } from '@utils/constants';
+import { IS_DELETE_SEARCH_KEY, PAGE_SEARCH_KEY } from '@utils/constants';
 import { ActionIcon, Box, Flex, rem, useMantineTheme } from '@mantine/core';
 
 export const PostNavigation = () => {
   const theme = useMantineTheme();
 
-  const { page, id } = useParams<{ page: string; id: string }>();
+  const { id } = useParams<{ id: string }>();
 
   const searchParams = useSearchParams();
+
+  const page = searchParams.get(PAGE_SEARCH_KEY);
 
   const router = useRouter();
 

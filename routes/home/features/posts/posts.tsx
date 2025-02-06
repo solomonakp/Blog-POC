@@ -60,8 +60,8 @@ export const Posts = async (props: PostsProps) => {
         className={classes['home-page___posts']}
       >
         {posts.map((post) => (
-          <GridCol span={{ base: 12, md: 6, lg: 4 }}>
-            <PostCard key={post.id} {...post} />
+          <GridCol key={post.id} span={{ base: 12, md: 6, lg: 4 }}>
+            <PostCard {...post} />
           </GridCol>
         ))}
       </Grid>
