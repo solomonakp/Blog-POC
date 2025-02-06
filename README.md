@@ -4,11 +4,9 @@ A blog proof of concept for managing blog post.
 
 ![screenshot](./public/blog.png)
 
-&nbsp;
+[Watch Video](./public/video.mp4)
 
-![screenshot](./public/video.mp4)
-
-This is a simple proof of concept for a blog post manager. The blog is user friendly and easy to interact with and has key functionalities such as create, edit, delete, and view blog posts.
+This is a simple proof of concept for a blog post manager. The blog is user friendly and easy to interact with and has key functionalities such as create, edit, delete, and view blog posts. for more info see : [Project Rationale/ Feature Documentation](INTRO.md)
 
 &nbsp;
 
